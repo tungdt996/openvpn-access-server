@@ -154,4 +154,21 @@ vi uprop.py
         ret['concurrent_connections'] = 2048
         return ret
 ```
-
+###package files:
+```
+rm -f uprop.pyc
+python3 -O -m compileall uprop.py && mv __pycache__/uprop.cpython-38.opt-1.pyc uprop.pyc
+zip -r pyovpn-2.0-py3.8_cracked.zip common EGG-INFO pyovpn
+mv pyovpn-2.0-py3.8_cracked.zip pyovpn-2.0-py3.8.egg
+mv pyovpn-2.0-py3.8.egg ../ && cd ..
+```
+###clear python cache:
+```
+cd /usr/local/openvpn_as/lib/python
+rm -rf __pycache__/*
+```
+###recreate profile openvpn
+```
+cd /usr/local/openvpn_as/bin  
+./ovpn-init
+```
