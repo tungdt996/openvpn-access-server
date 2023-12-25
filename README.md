@@ -27,7 +27,7 @@ Configuration log file has been written to /usr/local/openvpn_as/init.log
 Access Server Web UIs are available here:
 Admin UI: https://192.168.102.130:943/admin
 Client UI: https://192.168.102.130:943 
-**Login as "openvpn" with "RandomPassword" to continue** <----Here**
+Login as "openvpn" with "RandomPassword" to continue <---- **Here**
 (password can be changed on Admin UI)
 +++++++++++++++++++++++++++++++++++++++++++++++
 ```
