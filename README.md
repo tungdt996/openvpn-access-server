@@ -31,3 +31,5 @@ Login as "openvpn" with "RandomPassword" to continue <---- **Here**
 (password can be changed on Admin UI)
 +++++++++++++++++++++++++++++++++++++++++++++++
 ```
+# Unlock license
+**License in pyovpn-2.0-py3.6.egg(depends on python version) (path:/usr/local/openvpn_as/lib/python)**
