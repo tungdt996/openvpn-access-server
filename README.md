@@ -50,7 +50,7 @@ vi uprop.py
 ```
 **file uprop.py has the following content:**
 ```
-def figure(self, licdict):
+    def figure(self, licdict):
         proplist = set(('concurrent_connections', ))
         good = set()
         ret = None
@@ -103,7 +103,7 @@ def figure(self, licdict):
 **add ret[‘concurrent_connections’] = 2048 before return ret**
 **The file will now look like this:**
 ```
-def figure(self, licdict):
+    def figure(self, licdict):
         proplist = set(('concurrent_connections', ))
         good = set()
         ret = None
